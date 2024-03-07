@@ -1,1 +1,18 @@
-{}
+{
+  "name": "google-books",
+  "description": "A book search engine that makes use of the Google Books API",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "install-client": "cd client && npm install",
+    "install-server": "cd server && npm install",
+    "build-client": "cd client && npm run build",
+    "start-server": "cd server && npm start",
+    "postinstall": "npm run install-client && npm run install-server",
+    "start": "npm run start-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
